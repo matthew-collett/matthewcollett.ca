@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:opsz,wght@14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Fira Code', monospace;
+  --color-primary: #031625;
+  --color-secondary: #0e172a;
+  --color-accent: #4ddeb7;
+  --nav-height: 91px;
+
+  --swiper-navigation-color: #4ddeb7;
+  --swiper-pagination-color: #4ddeb7;
+  font-optical-sizing: auto;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-primary);
+}
+
+@layer utilities {
+  .hover-underline {
+    @apply cursor-pointer hover:text-accent transition-ease relative after:absolute after:bottom-0 after:left-0 after:h-[1px] after:w-full after:origin-left after:scale-x-0 after:bg-accent after:transition-transform hover:after:scale-x-100 after:duration-500;
+  }
+
+  .transition-ease {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .section-res {
+    @apply mx-32 max-md:mx-8;
+  }
+}
