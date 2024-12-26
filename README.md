@@ -28,11 +28,6 @@
     ├── components/   # UI components
     ├── layouts/      # Layout components
     └── views/        # Page components
-        ├── About/    # About page
-        ├── Contact/  # Contact page
-        ├── Home/     # Home page
-        ├── Projects/ # Projects page
-        └── Work/     # Work experience page
 ```
 
 ## 🚀 Local Run

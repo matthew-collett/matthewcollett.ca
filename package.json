@@ -1,7 +1,6 @@
 {
-  "name": "personal-site",
+  "name": "matthewcollett.ca",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
