@@ -1,17 +1,17 @@
 # <p align="center">matthewcollett.ca</p>
 
-<p align="center"><img src="public/images/preview.jpg" width="350px" style="border-radius: 8px;"/></p>
+<p align="center"><img width="800" alt="image" src="https://github.com/user-attachments/assets/5762d7dc-7409-49e6-a45e-06b34968b844" /></p>
 <p align="center">Personal portfolio website built with React, Tailwind CSS, and Framer Motion. Bundled with Vite and deployed on AWS using CloudFront and S3.</p>
 <p align="center">
-  <a href="https://github.com/matthew-collett/matthewcollett.ca/releases/latest" target="_blank"><img alt="GitHub release" src="https://img.shields.io/github/release/matthew-collett/matthewcollett.ca.svg?logo=github&color=red" />
-  <a href="https://github.com/matthew-collett/go-ctag/actions?workflow=ci" target="_blank"><img alt="Workflow" src="https://img.shields.io/github/actions/workflow/status/matthew-collett/matthewcollett.ca/.github%2Fworkflows%2Fjobs.yml?&logo=github" />
+  <a href="https://github.com/matthew-collett/matthewcollett.ca/releases/latest" target="_blank"><img alt="GitHub release" src="https://img.shields.io/github/release/matthew-collett/matthewcollett.ca.svg?logo=github&color=red"></a>
+    <a href="https://github.com/matthew-collett/go-ctag/actions?workflow=ci" target="_blank"><img alt="Workflow" src="https://img.shields.io/github/actions/workflow/status/matthew-collett/matthewcollett.ca/.github%2Fworkflows%2Fjobs.yml?&logo=github"></a>
 </p>
 
 ## 🧭 Table of Contents
 
-- [matthewcollett.ca](#matthewcollett.ca)
+- [matthewcollett.ca](#matthewcollettca)
   - [Table of Contents](#-table-of-contents)
-  - [Directory Structure](#-directory-structure)
+  - [Directory Structure](#%EF%B8%8F-directory-structure)
   - [Local Run](#-local-run)
     - [Prerequisites](#prerequisites)
     - [Steps](#steps)
