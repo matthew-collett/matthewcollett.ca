@@ -61,7 +61,7 @@ export const experiences = {
       'Express.js',
       'AWS',
       'Docker',
-      'CirlceCI',
+      'CircleCI',
     ],
   },
 }

@@ -32,7 +32,7 @@ export default [
   {
     title: 'Go CTag',
     description:
-      'A Go library that provides utilities for extracting and processing custom struct tags in Go ',
+      'A Go library that provides utilities for extracting and processing custom struct tags in Go.',
     techs: ['Go', 'GitHub Actions'],
     github: 'https://github.com/matthew-collett/go-ctag',
     extra: {
@@ -71,7 +71,7 @@ export default [
     github: 'https://github.com/matthew-collett/RoverTech',
     extra: {
       title: 'Demo',
-      link: '#',
+      link: 'https://www.youtube.com/shorts/3O7Qbo-jFUY',
     },
     image: rovertech,
     imageType: 'image',
@@ -90,10 +90,6 @@ export default [
       'MVVM Architecture',
     ],
     github: 'https://github.com/matthew-collett/playloudr',
-    extra: {
-      title: 'Demo',
-      link: '#',
-    },
     image: playloudr,
     imageType: 'logo',
   },
@@ -103,10 +99,6 @@ export default [
       'First-place solution at Atlantic Engineering Competition 2023 for optimizing municipal solar power implementation costs.',
     techs: ['Java', 'Java Swing', 'Apache POI', 'MVC Architecture'],
     github: 'https://github.com/matthew-collett/solarify',
-    extra: {
-      title: '',
-      link: '',
-    },
     image: solarify,
     imageType: 'logo',
   },
