@@ -107,7 +107,7 @@ const Home = () => {
         animate={typewriterComplete ? { y: 0, opacity: 1 } : { y: 50, opacity: 0 }}
         transition={{ duration: 0.5, delay: 0.9 }}
       >
-        <Link to="about" spy smooth duration={700} offset={25}>
+        <Link to="about" spy smooth duration={700} offset={-40}>
           <DotLottieReact
             src="https://lottie.host/d0f0410b-9766-40de-b9e4-fa797749f534/UFBGoV1ZK4.json"
             loop
