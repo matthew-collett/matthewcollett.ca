@@ -1,1 +1,75 @@
-# Readme
+# <p align="center">matthewcollett.ca</p>
+
+<p align="center"><img src="public/images/preview.jpg" width="350px" style="border-radius: 8px;"/></p>
+<p align="center">Personal portfolio website built with React, Tailwind CSS, and Framer Motion. Bundled with Vite and deployed on AWS using CloudFront and S3.</p>
+<p align="center">
+  <a href="https://github.com/matthew-collett/matthewcollett.ca/releases/latest" target="_blank"><img alt="GitHub release" src="https://img.shields.io/github/release/matthew-collett/matthewcollett.ca.svg?logo=github&color=red" />
+  <a href="https://github.com/matthew-collett/go-ctag/actions?workflow=ci" target="_blank"><img alt="Workflow" src="https://img.shields.io/github/actions/workflow/status/matthew-collett/matthewcollett.ca/.github%2Fworkflows%2Fjobs.yml?&logo=github" />
+</p>
+
+## 🧭 Table of Contents
+
+- [matthewcollett.ca](#matthewcollett.ca)
+  - [Table of Contents](#-table-of-contents)
+  - [Directory Structure](#-directory-structure)
+  - [Local Run](#-local-run)
+    - [Prerequisites](#prerequisites)
+    - [Steps](#steps)
+
+## 🏗️ Directory Structure
+
+```bash
+.
+├── .github/          # GitHub Actions workflows
+├── .husky/           # Git hooks
+├── public/           # Static public assets
+└── src/              # Source code
+    ├── assets/       # Static assets
+    ├── components/   # UI components
+    ├── layouts/      # Layout components
+    └── views/        # Page components
+        ├── About/    # About page
+        ├── Contact/  # Contact page
+        ├── Home/     # Home page
+        ├── Projects/ # Projects page
+        └── Work/     # Work experience page
+```
+
+## 🚀 Local Run
+
+### Prerequisites
+
+- Node.js (version specified in `.nvmrc`)
+- Yarn package manager
+
+### Steps
+
+1. Clone this repository
+
+```bash
+git clone https://github.com/matthew-collett/matthewcollett.ca.git
+```
+
+2. Navigate into the project directory
+
+```bash
+cd matthewcollett.ca
+```
+
+3. Install the dependencies
+
+```bash
+yarn install
+```
+
+4. Run the development server
+
+```bash
+yarn run dev
+```
+
+5. Build for production
+
+```bash
+yarn build
+```
