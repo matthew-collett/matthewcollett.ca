@@ -3,7 +3,7 @@ export const experiences = {
     company: 'Sonrai Security',
     role: 'Junior Software Engineer Co-op',
     location: 'Fredericton, New Brunswick',
-    date: 'May 2024 — August 2024',
+    date: 'May 2024 - August 2024',
     link: 'https://sonraisecurity.com',
     points: [
       'Optimized batch discovery service by refining exception handling to prevent improper data invalidation',
@@ -31,7 +31,7 @@ export const experiences = {
     company: 'Sonrai Security',
     role: 'Junior Software Engineer Co-op',
     location: 'Fredericton, New Brunswick',
-    date: 'January 2023 — August 2023',
+    date: 'January 2023 - August 2023',
     link: 'https://sonraisecurity.com',
     points: [
       'Handled customer feature requests, driving the integration and support of AWS, Azure, and Google Cloud Platform services into the product',
@@ -44,10 +44,10 @@ export const experiences = {
     company: 'Cedar Groves Golf Course',
     role: 'Full Stack Developer',
     location: 'Saint John, New Brunswick',
-    date: 'December 2022 — April 2023',
+    date: 'December 2022 - April 2023',
     link: 'https://cedargrovesgolf.ca',
     points: [
-      'Designed and developed a full-stack website for Cedar Groves Golf Course, bringing their brand to life online and helping them reach a wider audience.',
+      'Designed and developed a full-stack website for Cedar Groves Golf Course, bringing their brand to life online and helping them reach a wider audience',
       'Implemented content management system allowing staff to easily update course information and seasonal hours of operation',
       'Deployed and actively maintain website infrastructure on AWS',
     ],

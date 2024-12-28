@@ -16,7 +16,7 @@ const About = () => (
         >
           <Heading num={1} text={'about me'} />
           <h3 className="text-2xl max-md:text-xl font-bold">
-            I&apos;m a software engineering student based in New Brunswick, Canada
+            I&apos;m a software engineering student based in New Brunswick, Canada.
           </h3>
           <div className="flex flex-col gap-2 ">
             <p>

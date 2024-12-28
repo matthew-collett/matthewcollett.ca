@@ -32,7 +32,7 @@ export default [
   {
     title: 'Go CTag',
     description:
-      'A Go library that provides utilities for extracting and processing custom struct tags in Go.',
+      'A Go library providing utilities for extracting and processing custom struct tags.',
     techs: ['Go', 'GitHub Actions'],
     github: 'https://github.com/matthew-collett/go-ctag',
     extra: {

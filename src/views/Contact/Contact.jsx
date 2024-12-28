@@ -16,7 +16,7 @@ const Contact = () => (
       <Heading num={4} text={"let's connect"} className="text-center" />
       <p className="text-center max-w-2xl">
         Whether you have a project in mind or just want to chat, I&apos;m always open to new ideas
-        and connections. Check out my GitHub or reach out via Email or LinkedIn!
+        and connections. Check out my GitHub or reach out via email or LinkedIn!
       </p>
       <div className="flex items-center gap-2 text-slate-400">
         <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
