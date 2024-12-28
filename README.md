@@ -36,6 +36,7 @@
 
 - Node.js (version specified in `.nvmrc`)
 - Yarn package manager
+- Requires S3 assets for local development. Assets are managed via CD pipeline. Local setup possible by modifying asset imports to use local resources.
 
 ### Steps
 
