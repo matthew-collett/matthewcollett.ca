@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => (
   <div className="flex flex-col shadow-lg rounded-md bg-secondary hover:scale-[1.02] transition-ease items-center justify-between h-full">
     <div>
       <div
-        className={`w-full h-36 rounded-t-md ${project.imageType === 'logo' ? 'flex items-center justify-center bg-secondary p-6' : ''}`}
+        className={`w-full h-44 rounded-t-md ${project.imageType === 'logo' ? 'flex items-center justify-center bg-secondary p-6' : ''}`}
       >
         <img
           src={project.image}

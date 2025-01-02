@@ -14,7 +14,7 @@ const NavLinks = ({ isMobile = false, isMenuOpen = false, setIsMenuOpen, classNa
 
   return (
     <ul
-      className={`${isMobile ? 'flex-col' : ''} flex gap-12 items-center font-serif text-slate-100 ${className}`}
+      className={`${isMobile ? 'flex-col' : ''} flex gap-8 items-center font-serif text-slate-100 ${className}`}
     >
       {navLinks.map(({ text, delay }) => {
         const section = text.split('. ')[1]
