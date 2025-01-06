@@ -26,8 +26,8 @@ const Nav = () => {
 
   return (
     <>
-      <header className="w-full p-6 h-nav">
-        <div className="flex w-full lg:px-7 justify-between items-center">
+      <header className="w-full p-4 sm:p-6 lg:p-8">
+        <div className="flex w-full justify-between items-center">
           <Link
             to="home"
             spy

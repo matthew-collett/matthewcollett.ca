@@ -10,10 +10,10 @@ const ProjectCard = ({ project }) => (
         <img
           src={project.image}
           alt={project.title}
-          className={`${project.imageType === 'logo' ? 'max-w-full max-h-full w-auto h-auto' : 'w-full h-full object-cover'} rounded-t-md`}
+          className={`${project.imageType === 'logo' ? 'max-w-full max-h-full w-auto h-auto p-4' : 'w-full h-full object-cover'} rounded-t-md`}
         />
       </div>
-      <div className="flex flex-col p-6 gap-2">
+      <div className="flex flex-col p-8 gap-2">
         <h3 className="text-lg font-semibold text-slate-200">{project.title}</h3>
         <p>{project.description}</p>
         <div className="flex flex-wrap gap-2 pt-1">
@@ -23,7 +23,7 @@ const ProjectCard = ({ project }) => (
         </div>
       </div>
     </div>
-    <div className="flex gap-4 p-6 w-full pt-0">
+    <div className="flex gap-4 p-8 w-full pt-0">
       <a
         href={project.github}
         target="_blank"

@@ -18,8 +18,8 @@ const Work = () => {
   }
 
   return (
-    <section id="work" className="py-20 max-md:py-8 w-full">
-      <div className="mx-auto section-res">
+    <section id="work" className="section">
+      <div className="section-container">
         <motion.div
           initial={{ x: -50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}

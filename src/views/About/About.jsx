@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'
 import meimages from './meimages.js'
 
 const About = () => (
-  <section id="about" className="w-full py-20 max-md:py-8 flex justify-center">
-    <div className="flex flex-col section-res">
+  <section id="about" className="section">
+    <div className="section-container">
       <div className="flex justify-around max-lg:flex-col">
         <motion.div
           className="flex flex-col gap-2 w-1/2 py-6 max-lg:w-full"

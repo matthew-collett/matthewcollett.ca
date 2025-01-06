@@ -12,9 +12,9 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="h-[calc(100vh-var(--nav-height))] relative flex items-center justify-center"
+      className="h-[calc(100vh-var(--nav-height))] relative flex items-center justify-center section"
     >
-      <div className="relative z-10 flex flex-col gap-4 section-res">
+      <div className="relative z-10 flex flex-col gap-4 section-container">
         <div className="font-serif text-accent font-medium h-6">
           <Typewriter
             onInit={typewriter => {

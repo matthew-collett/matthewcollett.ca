@@ -5,14 +5,14 @@ import socials from './socials.js'
 
 const Contact = () => (
   <motion.section
-    name="contact"
-    className="w-full py-20 max-md:py-8 pb-[180px] flex justify-center"
+    id="contact"
+    className="section pb-[180px] flex justify-center"
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     viewport={{ once: true, amount: 0.5 }}
     transition={{ duration: 0.5 }}
   >
-    <div className="flex flex-col justify-center items-center section-res gap-6">
+    <div className="flex flex-col justify-center items-center gap-6 section-container">
       <Heading num={4} text={"let's connect"} className="text-center" />
       <p className="text-center max-w-2xl">
         Whether you have a project in mind or just want to chat, I&apos;m always open to new ideas
@@ -23,7 +23,7 @@ const Contact = () => (
         Available for new opportunities
       </div>
       <motion.div
-        className="flex max-lg:flex-col w-full justify-center items-center gap-4"
+        className="grid max-lg:grid-cols-1 grid-cols-3 w-full h-full place-items-center gap-8"
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.5 }}
