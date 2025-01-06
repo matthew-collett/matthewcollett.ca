@@ -6,7 +6,7 @@ import socials from './socials.js'
 const Contact = () => (
   <motion.section
     id="contact"
-    className="section pb-[180px] flex justify-center"
+    className="section flex justify-center"
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     viewport={{ once: true, amount: 0.5 }}

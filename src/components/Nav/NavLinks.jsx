@@ -26,10 +26,10 @@ const NavLinks = ({ isMobile = false, isMenuOpen = false, setIsMenuOpen, classNa
               smooth
               duration={700}
               isDynamic
-              offset={section == 'home' ? -91 : -40}
-              threshold={section === 'contact' ? 0.1 : 1}
+              offset={section == 'home' ? -107 : -40}
               activeClass="text-accent after:scale-x-100"
               className="hover-underline"
+              activeAtBottom="contact"
               onClick={() => setIsMenuOpen(false)}
             >
               {text}

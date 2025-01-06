@@ -26,18 +26,18 @@ const Nav = () => {
 
   return (
     <>
-      <header className="w-full p-4 sm:p-6 lg:p-8">
-        <div className="flex w-full justify-between items-center">
+      <header className="w-full p-4 sm:p-6 lg:p-8 h-nav">
+        <div className="flex w-full justify-between items-center h-[43px]">
           <Link
             to="home"
             spy
             smooth
             duration={700}
-            offset={-91}
+            offset={-107}
             isDynamic
             activeClass="text-accent after:scale-x-100"
           >
-            <Logo className="w-24 cursor-pointer" />
+            <Logo className="w-20 md:w-24 cursor-pointer" />
           </Link>
           <div className="hidden md:flex items-center">
             <NavLinks isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
@@ -60,7 +60,7 @@ const Nav = () => {
       </header>
 
       <nav
-        className={`fixed drop-shadow-md top-0 left-0 right-0 z-50 px-6 py-4 max-md:py-3 bg-slate-900/90 backdrop-blur-sm transition-ease transform ${
+        className={`fixed drop-shadow-md top-0 left-0 right-0 z-50 p-4 max-md:py-3 bg-slate-900/90 backdrop-blur-sm transition-ease transform ${
           showScrollNav
             ? 'translate-y-0 opacity-100'
             : '-translate-y-full opacity-0 pointer-events-none'
@@ -81,7 +81,7 @@ const Nav = () => {
         spy
         smooth
         duration={700}
-        offset={-91}
+        offset={-107}
         isDynamic
         activeClass="text-accent after:scale-x-100"
         className={`z-40 bg-slate-700 rounded-full shadow-md fixed bottom-8 right-8 p-3 hover:cursor-pointer hover:scale-105 transition-ease ${
