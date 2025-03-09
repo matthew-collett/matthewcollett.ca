@@ -1,5 +1,6 @@
 import Heading from '@components/Heading'
 import { motion } from 'framer-motion'
+import EmploymentStatus from './EmploymentStatus.jsx'
 import SocialCard from './SocialCard.jsx'
 import socials from './socials.js'
 
@@ -18,10 +19,7 @@ const Contact = () => (
         Whether you have a project in mind or just want to chat, I&apos;m always open to new ideas
         and connections. Check out my GitHub or reach out via email or LinkedIn!
       </p>
-      <div className="flex items-center gap-2 text-slate-400">
-        <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-        Available for new opportunities
-      </div>
+      <EmploymentStatus employed />
       <motion.div
         className="grid max-lg:grid-cols-1 grid-cols-3 w-full h-full place-items-center gap-8"
         initial={{ y: 50, opacity: 0 }}
