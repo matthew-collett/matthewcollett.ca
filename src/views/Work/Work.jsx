@@ -6,7 +6,7 @@ import { MapPin } from 'lucide-react'
 import { experiences } from './experiences'
 
 const Work = () => {
-  const [activeTab, setActiveTab] = useState('sonrai2024')
+  const [activeTab, setActiveTab] = useState(Object.keys(experiences)[0])
   const [isTabChanging, setisTabChanging] = useState(false)
 
   const handleTabChange = tab => {
@@ -91,7 +91,7 @@ const Work = () => {
               ))}
             </ul>
 
-            <div className="flex flex-wrap gap-x-4 gap-y-2 py-6">
+            <div className="flex flex-wrap gap-2 py-6">
               {experiences[activeTab].techs.map(tech => (
                 <TechPill key={tech}>{tech}</TechPill>
               ))}

@@ -3,7 +3,7 @@ import Footer from '@components/Footer'
 import Logo from '@components/Logo'
 
 const NotFound = () => (
-  <div className="flex flex-col min-h-screen w-full max-md:px-6 px-[52px] pt-6">
+  <div className="flex flex-col min-h-screen w-full p-4 sm:p-6 lg:p-8">
     <Link to="/">
       <Logo className="w-24" />
     </Link>

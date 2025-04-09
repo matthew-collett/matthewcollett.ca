@@ -7,16 +7,16 @@
     <a href="https://github.com/matthew-collett/matthewcollett.ca/actions?workflow=jobs" target="_blank"><img alt="Workflow" src="https://img.shields.io/github/actions/workflow/status/matthew-collett/matthewcollett.ca/.github%2Fworkflows%2Fjobs.yml?&logo=github"></a>
 </p>
 
-## 🧭 Table of Contents
+## Table of Contents
 
 - [matthewcollett.ca](#matthewcollettca)
   - [Table of Contents](#-table-of-contents)
-  - [Directory Structure](#%EF%B8%8F-directory-structure)
+  - [Directory Structure](#directory-structure)
   - [Local Run](#-local-run)
     - [Prerequisites](#prerequisites)
     - [Steps](#steps)
 
-## 🏗️ Directory Structure
+## Directory Structure
 
 ```bash
 .
@@ -30,7 +30,7 @@
     └── views/        # Page components
 ```
 
-## 🚀 Local Run
+## Local Run
 
 ### Prerequisites
 

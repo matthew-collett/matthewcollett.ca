@@ -7,7 +7,7 @@ import socials from './socials.js'
 const Contact = () => (
   <motion.section
     id="contact"
-    className="section flex justify-center"
+    className="section flex justify-center min-h-[calc(100vh-100px)]"
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     viewport={{ once: true, amount: 0.5 }}
@@ -16,8 +16,7 @@ const Contact = () => (
     <div className="flex flex-col justify-center items-center gap-6 section-container">
       <Heading num={4} text={"let's connect"} className="text-center" />
       <p className="text-center max-w-2xl">
-        Whether you have a project in mind or just want to chat, I&apos;m always open to new ideas
-        and connections. Check out my GitHub or reach out via email or LinkedIn!
+        Check out my GitHub or reach out via email or LinkedIn!
       </p>
       <EmploymentStatus employed />
       <motion.div

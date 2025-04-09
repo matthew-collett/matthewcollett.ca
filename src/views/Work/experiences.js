@@ -1,4 +1,18 @@
 export const experiences = {
+  harvest: {
+    company: 'University of New Brunswick',
+    role: 'Embedded Design Student Developer',
+    location: 'Fredericton, New Brunswick',
+    date: 'January 2025 - April 2025',
+    link: 'https://www.unb.ca/',
+    points: [
+      'Developed and designed a cross-platform desktop application for UNB Harvest Competition with real-time monitoring, scoring, and cloud integration for 20+ rovers',
+      'Built serverless backend architecture using AWS Lambda and S3 for data persistence',
+      'Integrated custom serial protocol for real-time data acquisition from competition hardware',
+      'Implemented CI/CD workflows for automated multi-platform deployment (Windows/macOS/Linux)',
+    ],
+    techs: ['JavaScript', 'Electron JS', 'Python', 'Flask', 'AWS', 'Zappa'],
+  },
   sonrai2024: {
     company: 'Sonrai Security',
     role: 'Junior Software Engineer Co-op',
