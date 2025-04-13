@@ -16,12 +16,12 @@ const About = () => (
         >
           <Heading num={1} text={'about me'} />
           <h3 className="text-2xl max-md:text-xl font-bold">
-            I&apos;m a software engineering student based in New Brunswick, Canada.
+            I&apos;m a software engineer based in New Brunswick, Canada.
           </h3>
           <div className="flex flex-col gap-2 ">
             <p>
-              From learning to code in 2022 to switching from electrical to software engineering, my
-              passion for software has only grown stronger.
+              Software development started as a hobby but quickly became something I wanted to do
+              every day, so I made it my career path.
             </p>
             <p>
               I&apos;m currently enjoying exploring the realms of cloud computing, systems design,

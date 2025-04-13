@@ -1,4 +1,13 @@
 export const experiences = {
+  sonraifull: {
+    company: 'Sonrai Security',
+    role: 'Software Engineer',
+    location: 'Fredericton, New Brunswick',
+    date: 'May 2025 - Present',
+    link: 'https://sonraisecurity.com',
+    points: ['Working on the first Cloud Permissions Firewall'],
+    techs: [],
+  },
   harvest: {
     company: 'University of New Brunswick',
     role: 'Embedded Design Student Developer',
