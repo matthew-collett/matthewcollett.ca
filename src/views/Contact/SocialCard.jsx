@@ -14,7 +14,7 @@ const SocialCard = ({ social }) => {
 
   return (
     <a href={social.link} target="_blank" rel="noopener noreferrer" className="w-full">
-      <div className="flex flex-col rounded-md p-8 border border-slate-500 h-full w-full gap-12 justify-center hover:scale-[1.02] transition-ease group">
+      <div className="flex flex-col rounded-md px-8 py-12 border border-slate-500 h-full w-full gap-12 justify-center hover:scale-[1.02] transition-ease group">
         <div className="flex flex-col gap-2">
           <div className="flex items-start justify-between">
             <social.icon size={32} color="var(--color-accent)" />

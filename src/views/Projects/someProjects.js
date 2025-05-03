@@ -1,13 +1,13 @@
 import ctag from '@assets/icons/ctag.svg'
+import intellicure from '@assets/icons/intellicure.svg'
 import playloudr from '@assets/icons/playloudr.svg'
-import solarify from '@assets/icons/solarify.svg'
 import cedargroves from '@assets/images/cedargroves.webp'
 import gridstream from '@assets/images/gridstream.webp'
 import rovertech from '@assets/images/rovertech.webp'
 
 export default [
   {
-    title: 'Cedar Groves Site',
+    title: 'Cedar Groves Golf Website',
     description:
       'Designed and developed the website for Cedar Groves Golf Course, bringing their brand to life online.',
     techs: [
@@ -43,21 +43,24 @@ export default [
     imageType: 'logo',
   },
   {
-    title: 'GridStream',
+    title: 'Gridstream',
     description:
       'A team-based senior design project creating a real-time verification system for demand response programs.',
     techs: [
       'Go',
       'Python',
+      'TypeScript',
       'React',
       'Tailwind CSS',
+      'MQTT',
       'Microservices',
       'ETL Pipelines',
-      'MQTT',
+      'Kubernetes',
       'GCP',
     ],
     extra: {
-      title: 'In Development',
+      title: 'Demo',
+      link: 'https://youtu.be/3iU_WECfWZA',
     },
     github: 'https://github.com/grid-stream-org',
     image: gridstream,
@@ -66,7 +69,7 @@ export default [
   {
     title: 'RoverTech',
     description:
-      'A team project developed for the ECE3232 Harvester Challenge, focusing on building a rover capable of performing specific tasks.',
+      'A team project developed for the ECE3232 Harvest Challenge, focusing on building a rover capable of performing specific tasks.',
     techs: ['C', 'Embedded Systems', 'PIC Microcontrollers', 'MPLAB X IDE'],
     github: 'https://github.com/matthew-collett/RoverTech',
     extra: {
@@ -76,7 +79,6 @@ export default [
     image: rovertech,
     imageType: 'image',
   },
-
   {
     title: 'PlayLoudr',
     description:
@@ -94,12 +96,12 @@ export default [
     imageType: 'logo',
   },
   {
-    title: 'Solarify',
+    title: 'IntelliCure',
     description:
-      'First-place solution at Atlantic Engineering Competition 2023 for optimizing municipal solar power implementation costs.',
-    techs: ['Java', 'Java Swing', 'Apache POI', 'MVC Architecture'],
-    github: 'https://github.com/matthew-collett/solarify',
-    image: solarify,
+      'Team-based solution at CEC 2025 using a CNN model to detect brain tumors in MRIs with an interactive interface for analysis and visualization.',
+    techs: ['TypeScript', 'shadcn/ui', 'Python', 'Flask', 'TensorFlow', 'Firebase'],
+    github: 'https://github.com/matthew-collett/cec2025',
+    image: intellicure,
     imageType: 'logo',
   },
 ]

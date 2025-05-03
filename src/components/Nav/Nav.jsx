@@ -20,10 +20,6 @@ const Nav = () => {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  useEffect(() => {
-    document.body.style.overflow = isMenuOpen ? 'hidden' : 'unset'
-  }, [isMenuOpen])
-
   return (
     <>
       <header className="w-full p-4 sm:p-6 lg:p-8 h-nav">
