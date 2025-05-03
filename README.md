@@ -1,6 +1,5 @@
 # <p align="center">matthewcollett.ca</p>
-
-<p align="center"><img width="700" alt="image" src="https://github.com/user-attachments/assets/d78f7275-ceb2-4382-8893-57467ba3532f" /></p>
+<p align="center"><img width="800" alt="image" src="https://github.com/user-attachments/assets/7bbf7987-e308-426d-93ea-d953b1335e5c" /></p>
 <p align="center">Personal portfolio website built with React, Tailwind CSS, and Framer Motion. Bundled with Vite and deployed on AWS using CloudFront and S3.</p>
 <p align="center">
   <a href="https://github.com/matthew-collett/matthewcollett.ca/releases/latest" target="_blank"><img alt="GitHub release" src="https://img.shields.io/github/release/matthew-collett/matthewcollett.ca.svg?logo=github&color=red"></a>
