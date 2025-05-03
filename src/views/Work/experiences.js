@@ -5,7 +5,7 @@ export const experiences = {
     location: 'Fredericton, New Brunswick',
     date: 'May 2025 - Present',
     link: 'https://sonraisecurity.com',
-    points: ['Working on the first Cloud Permissions Firewall'],
+    points: ["Working on Sonrai's Cloud Permissions Firewall"],
     techs: [],
   },
   harvest: {
