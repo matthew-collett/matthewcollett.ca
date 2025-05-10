@@ -9,6 +9,7 @@ const ProjectCard = ({ project }) => (
       >
         <img
           src={project.image}
+          loading="lazy"
           alt={project.title}
           className={`${project.imageType === 'logo' ? 'max-w-full max-h-full w-auto h-auto p-4' : 'w-full h-full object-cover'} rounded-t-md`}
         />

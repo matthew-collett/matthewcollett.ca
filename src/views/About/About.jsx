@@ -45,6 +45,7 @@ const About = () => (
           <img
             src={MeWaving}
             alt="Me Waving"
+            loading="lazy"
             className="w-80 max-lg:w-64 max-lg:pt-12 drop-shadow-2xl hover:scale-105 hover:-rotate-3 transition-transform transition-ease"
             style={{
               filter: 'drop-shadow(0px 0px 20px rgba(255,255,255,0.1))',

@@ -91,7 +91,8 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-primary via-transparent to-primary z-10" />
         <img
           src={MeCoding}
-          alt=""
+          alt="Me Coding"
+          loading="lazy"
           className="h-full w-full object-cover opacity-30"
           style={{
             maskImage:
