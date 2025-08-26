@@ -6,7 +6,7 @@ export const experiences = {
     date: 'May 2025 - Present',
     link: 'https://sonraisecurity.com',
     points: ["Working on Sonrai's Cloud Permissions Firewall"],
-    techs: [],
+    techs: ['Go', 'Java', 'Python', 'AWS', 'Auth0'],
   },
   harvest: {
     company: 'University of New Brunswick',
