@@ -20,7 +20,7 @@ const Contact = () => (
       </p>
       <EmploymentStatus employed />
       <motion.div
-        className="grid max-lg:grid-cols-1 grid-cols-3 w-full h-full place-items-start gap-8 mt-12"
+        className="grid max-lg:grid-cols-1 grid-cols-3 w-full h-full place-items-stretch gap-8 mt-12"
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.5 }}
