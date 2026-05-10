@@ -3,32 +3,9 @@ import intellicure from '@assets/icons/intellicure.svg'
 import playloudr from '@assets/icons/playloudr.svg'
 import cedargroves from '@assets/images/cedargroves.webp'
 import gridstream from '@assets/images/gridstream.webp'
-import rovertech from '@assets/images/rovertech.webp'
+import { CalendarCheck } from 'lucide-react'
 
 export default [
-  {
-    title: 'Cedar Groves Golf Website',
-    description:
-      'Designed and developed the website for Cedar Groves Golf Course, bringing their brand to life online.',
-    techs: [
-      'HTML5',
-      'CSS3',
-      'Bootstrap',
-      'jQuery',
-      'Express.js',
-      'EJS',
-      'AWS',
-      'Docker',
-      'CircleCI',
-    ],
-    github: 'https://github.com/cedargrovesgolf/cedar-groves-site',
-    extra: {
-      title: 'Check it out',
-      link: 'https://cedargrovesgolf.ca',
-    },
-    image: cedargroves,
-    imageType: 'image',
-  },
   {
     title: 'Go CTag',
     description:
@@ -67,17 +44,44 @@ export default [
     imageType: 'logo',
   },
   {
-    title: 'RoverTech',
+    title: 'Caddie Calendar',
+    description: 'A personal scheduling application for managing golf tee-time bookings.',
+    techs: ['TypeScript', 'Python', 'Flask', 'React', 'Claude Code'],
+    github: 'https://github.com/matthew-collett/caddie-calendar',
+    icon: CalendarCheck,
+    imageType: 'logo',
+  },
+  {
+    title: 'Cedar Groves Golf Website',
     description:
-      'A team project developed for the ECE3232 Harvest Challenge, focusing on building a rover capable of performing specific tasks.',
-    techs: ['C', 'Embedded Systems', 'PIC Microcontrollers', 'MPLAB X IDE'],
-    github: 'https://github.com/matthew-collett/RoverTech',
+      'Designed and developed the website for Cedar Groves Golf Course, bringing their brand to life online.',
+    techs: [
+      'HTML5',
+      'CSS3',
+      'Bootstrap',
+      'jQuery',
+      'Express.js',
+      'EJS',
+      'AWS',
+      'Docker',
+      'CircleCI',
+    ],
+    github: 'https://github.com/cedargrovesgolf/cedar-groves-site',
     extra: {
-      title: 'Demo',
-      link: 'https://www.youtube.com/shorts/3O7Qbo-jFUY',
+      title: 'Check it out',
+      link: 'https://cedargrovesgolf.ca',
     },
-    image: rovertech,
+    image: cedargroves,
     imageType: 'image',
+  },
+  {
+    title: 'IntelliCure',
+    description:
+      'Team-based solution at CEC 2025 using a CNN model to detect brain tumors in MRIs with an interactive interface for analysis and visualization.',
+    techs: ['TypeScript', 'shadcn/ui', 'Python', 'Flask', 'TensorFlow', 'Firebase'],
+    github: 'https://github.com/matthew-collett/cec2025',
+    image: intellicure,
+    imageType: 'logo',
   },
   {
     title: 'PlayLoudr',
@@ -93,15 +97,6 @@ export default [
     ],
     github: 'https://github.com/matthew-collett/playloudr',
     image: playloudr,
-    imageType: 'logo',
-  },
-  {
-    title: 'IntelliCure',
-    description:
-      'Team-based solution at CEC 2025 using a CNN model to detect brain tumors in MRIs with an interactive interface for analysis and visualization.',
-    techs: ['TypeScript', 'shadcn/ui', 'Python', 'Flask', 'TensorFlow', 'Firebase'],
-    github: 'https://github.com/matthew-collett/cec2025',
-    image: intellicure,
     imageType: 'logo',
   },
 ]

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Heading from '@components/Heading'
 import TechPill from '@components/TechPill'
 import { motion } from 'framer-motion'
-import { MapPin } from 'lucide-react'
+import { Github, MapPin } from 'lucide-react'
 import { experiences } from './experiences'
 
 const Work = () => {
@@ -90,6 +90,18 @@ const Work = () => {
                 </li>
               ))}
             </ul>
+
+            {experiences[activeTab].repo && (
+              <a
+                href={experiences[activeTab].repo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 hover:text-accent transition-ease font-serif pt-6"
+              >
+                <Github size={16} />
+                <span>Code</span>
+              </a>
+            )}
 
             <div className="flex flex-wrap gap-2 py-6">
               {experiences[activeTab].techs.map(tech => (
