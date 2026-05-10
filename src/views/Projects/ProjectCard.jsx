@@ -5,14 +5,22 @@ const ProjectCard = ({ project }) => (
   <div className="flex flex-col shadow-lg rounded-md bg-secondary hover:scale-[1.02] transition-ease items-center justify-between h-full">
     <div>
       <div
-        className={`w-full h-44 rounded-t-md ${project.imageType === 'logo' ? 'flex items-center justify-center bg-secondary p-6' : ''}`}
+        className={`w-full h-44 rounded-t-md ${project.imageType === 'logo' || project.icon || !project.image ? 'flex items-center justify-center bg-secondary p-6' : ''}`}
       >
-        <img
-          src={project.image}
-          loading="lazy"
-          alt={project.title}
-          className={`${project.imageType === 'logo' ? 'max-w-full max-h-full w-auto h-auto p-4' : 'w-full h-full object-cover'} rounded-t-md`}
-        />
+        {project.image ? (
+          <img
+            src={project.image}
+            loading="lazy"
+            alt={project.title}
+            className={`${project.imageType === 'logo' ? 'max-w-full max-h-full w-auto h-auto p-4' : 'w-full h-full object-cover'} rounded-t-md`}
+          />
+        ) : project.icon ? (
+          <project.icon className="w-20 h-20 text-accent" strokeWidth={1.5} />
+        ) : (
+          <span className="font-serif text-2xl text-slate-300 text-center px-4">
+            {project.title}
+          </span>
+        )}
       </div>
       <div className="flex flex-col p-8 gap-2">
         <h3 className="text-lg font-semibold text-slate-200">{project.title}</h3>

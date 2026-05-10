@@ -24,8 +24,9 @@ const About = () => (
               every day, so I made it my career path.
             </p>
             <p>
-              I&apos;m currently enjoying exploring the realms of cloud computing, systems design,
-              and architecture.
+              Most of my focus is on cloud computing, systems design, and architecture. I&apos;ve
+              also been spending a lot of time on AI and agentic development, both as something I
+              build with and as part of how I work as an engineer.
             </p>
             <p>
               When I&apos;m not coding, you&apos;ll find me hanging out with friends and family or

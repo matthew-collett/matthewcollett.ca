@@ -55,8 +55,8 @@ const Home = () => {
           animate={typewriterComplete ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.5, delay: 0.9 }}
         >
-          A software engineer with a strong passion for problem solving, software, and its latest
-          advancements.
+          A software engineer with a strong passion for problem solving, building things, and the
+          latest advancements in tech.
         </motion.p>
 
         <motion.div
