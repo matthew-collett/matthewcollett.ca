@@ -1,11 +1,20 @@
 import ctag from '@assets/icons/ctag.svg'
 import intellicure from '@assets/icons/intellicure.svg'
-import playloudr from '@assets/icons/playloudr.svg'
+import sp from '@assets/icons/sp.svg'
 import cedargroves from '@assets/images/cedargroves.webp'
 import gridstream from '@assets/images/gridstream.webp'
 import { CalendarCheck } from 'lucide-react'
 
 export default [
+  {
+    title: 'sp',
+    description:
+      'A fast, minimal Spotify CLI and MCP server for controlling playback, search, and devices from your terminal or any LLM.',
+    techs: ['Go', 'MCP', 'Spotify Web API', 'Homebrew', 'GitHub Actions'],
+    github: 'https://github.com/matthew-collett/sp',
+    image: sp,
+    imageType: 'logo',
+  },
   {
     title: 'Go CTag',
     description:
@@ -44,14 +53,6 @@ export default [
     imageType: 'logo',
   },
   {
-    title: 'Caddie Calendar',
-    description: 'A personal scheduling application for managing golf tee-time bookings.',
-    techs: ['TypeScript', 'Python', 'Flask', 'React', 'Claude Code'],
-    github: 'https://github.com/matthew-collett/caddie-calendar',
-    icon: CalendarCheck,
-    imageType: 'logo',
-  },
-  {
     title: 'Cedar Groves Golf Website',
     description:
       'Designed and developed the website for Cedar Groves Golf Course, bringing their brand to life online.',
@@ -75,28 +76,20 @@ export default [
     imageType: 'image',
   },
   {
+    title: 'Caddie Calendar',
+    description: 'A personal scheduling application for managing golf tee-time bookings.',
+    techs: ['TypeScript', 'Python', 'Flask', 'React', 'Claude Code'],
+    github: 'https://github.com/matthew-collett/caddie-calendar',
+    icon: CalendarCheck,
+    imageType: 'logo',
+  },
+  {
     title: 'IntelliCure',
     description:
       'Team-based solution at CEC 2025 using a CNN model to detect brain tumors in MRIs with an interactive interface for analysis and visualization.',
     techs: ['TypeScript', 'shadcn/ui', 'Python', 'Flask', 'TensorFlow', 'Firebase'],
     github: 'https://github.com/matthew-collett/cec2025',
     image: intellicure,
-    imageType: 'logo',
-  },
-  {
-    title: 'PlayLoudr',
-    description:
-      'An Android application for music enthusiasts to share their favorite tracks and discover new music.',
-    techs: [
-      'Kotlin',
-      'Jetpack Compose',
-      'Android Studio',
-      'AWS',
-      'Spotify Web API',
-      'MVVM Architecture',
-    ],
-    github: 'https://github.com/matthew-collett/playloudr',
-    image: playloudr,
     imageType: 'logo',
   },
 ]
