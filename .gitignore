@@ -11,3 +11,9 @@ dist-ssr
 # Assets
 src/assets/images
 src/assets/icons
+
+# Claude
+.claude
+.omc
+plan.md
+research.md
