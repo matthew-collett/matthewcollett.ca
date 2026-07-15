@@ -517,17 +517,17 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@lottiefiles/dotlottie-react@^0.14.2":
-  version "0.14.2"
-  resolved "https://registry.yarnpkg.com/@lottiefiles/dotlottie-react/-/dotlottie-react-0.14.2.tgz#6b9e2e72651dafd39db044de66c26b7f8a0a9156"
-  integrity sha512-RR4r0HrKQbOAw6iS6C3mRARS2iu+yI+G1vICoUsRMHzlUUk1/26l3WyAjhcG+KoaGoKmORx8FgHjTNr4Sr/2Ug==
+"@lottiefiles/dotlottie-react@^0.19.9":
+  version "0.19.9"
+  resolved "https://registry.yarnpkg.com/@lottiefiles/dotlottie-react/-/dotlottie-react-0.19.9.tgz#4866c7e0938290fd49e78804df211dea102e68bf"
+  integrity sha512-G07YYM5CLOJrqmNglsMvxlVVV4dsjJvC+S2sdtL101LoWOC9rTPxUb1GCyuTTMF3qhxgIXdylCciVHQnF1nU0A==
   dependencies:
-    "@lottiefiles/dotlottie-web" "0.47.0"
+    "@lottiefiles/dotlottie-web" "0.77.1"
 
-"@lottiefiles/dotlottie-web@0.47.0":
-  version "0.47.0"
-  resolved "https://registry.yarnpkg.com/@lottiefiles/dotlottie-web/-/dotlottie-web-0.47.0.tgz#f6e0f511230ffecbaf725940318c961f108d49b5"
-  integrity sha512-YN6wSB4iYZBYEAFKEs/taufrPH3rfNlUA632Ib61WoR58TALAJ1ZX8yDIGUBT28byMJhZR4+xdpRX4v7X8OeBQ==
+"@lottiefiles/dotlottie-web@0.77.1":
+  version "0.77.1"
+  resolved "https://registry.yarnpkg.com/@lottiefiles/dotlottie-web/-/dotlottie-web-0.77.1.tgz#e803533a830a5c0686368c3067908f9175910c49"
+  integrity sha512-WHRQMyACH9VFCk3MI54IuqrTu5pbTnTrvQoJoyH76P6WHhkcNH+lINn3LduhbEciqI+DRKgdM4MwtOPoN2GbDA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
