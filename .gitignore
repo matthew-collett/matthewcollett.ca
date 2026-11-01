@@ -3,6 +3,13 @@ node_modules
 dist
 dist-ssr
 
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+.pnp.*
+
 # Editor
 .vscode/*
 .idea
